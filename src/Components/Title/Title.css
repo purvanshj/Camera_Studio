@@ -1,0 +1,17 @@
+.title{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 30px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    letter-spacing: 0.7em;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    background: linear-gradient(rgba(74, 74, 76, 0.7), rgba(21, 18, 38, 0.7)), url(https://www.lieben.no/wp-content/uploads/2018/03/lieben_sannecover-1200x800.jpg);
+    background-size: cover;
+    background-position: center;
+}
