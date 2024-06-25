@@ -18,10 +18,6 @@ const Footer = () => {
           <FaYoutube />
         </li>
       </ul>
-      <div className="footer_right">
-        <p>Terms of Service</p>
-        <p>Privacy Policy</p>
-      </div>
     </div>
   );
 };

@@ -7,6 +7,8 @@ import Gallery from './Components/Gallery/Gallery';
 import About from './Components/About/About';
 import services from './Pages/services';
 import Home from './Pages/Home';
+import Crew from './Components/Crew/Crew';
+import CTA from './Components/CTA/CTA';
 
 const App = () => {
   return (
@@ -15,10 +17,11 @@ const App = () => {
       <Routes>
         <Route path="/" Component={Home} />
         <Route path="/contact" Component={Contact} />
-        <Route path="/about" Component={About} />
+        <Route path="/crew" Component={Crew} />
         <Route path="/gallery" Component={Gallery} />
         <Route path="/services/:id" Component={services} />
       </Routes>
+      <CTA/>
       <Footer />
     </Router>
   );
