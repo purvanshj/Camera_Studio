@@ -1,0 +1,133 @@
+{
+  "Carousel": {
+    "images_hero": [
+      "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_",
+      "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_"
+    ]
+  },
+  "Services": [
+    {
+      "id": 1,
+      "name": "FASHION | PORTRAIT",
+      "class": "about",
+      "about": [
+        {
+          "title": "WHO WE ARE ?",
+          "para1": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt architecto animi ad ratione distinctio! Quidem aut, laborum deserunt incidunt quisquam perferendis animi et hic cum nemo est suscipit pariatur culpa!",
+          "para2": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt architecto animi ad ratione distinctio! Quidem aut, laborum deserunt incidunt quisquam perferendis animi et hic cum nemo est suscipit pariatur culpa!",
+          "para3": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt architecto animi ad ratione distinctio! Quidem aut, laborum deserunt incidunt quisquam perferendis animi et hic cum nemo est suscipit pariatur culpa!",
+          "img": "",
+          "class": "about-right",
+          "color": "white",
+          "image_Container_Class": "about-left"
+        },
+        {
+          "title": "What WE Do ?",
+          "para1": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt architecto animi ad ratione distinctio! Quidem aut, laborum deserunt incidunt quisquam perferendis animi et hic cum nemo est suscipit pariatur culpa!",
+          "para2": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt architecto animi ad ratione distinctio! Quidem aut, laborum deserunt incidunt quisquam perferendis animi et hic cum nemo est suscipit pariatur culpa!",
+          "para3": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt architecto animi ad ratione distinctio! Quidem aut, laborum deserunt incidunt quisquam perferendis animi et hic cum nemo est suscipit pariatur culpa!",
+          "img": "",
+          "divClass":"about_2",
+          "class": "about-left_2",
+          "color": "black",
+          "image_Container_Class": "about-right_2"
+        },
+        {
+          "title": "Why Us ?",
+          "para1": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt architecto animi ad ratione distinctio! Quidem aut, laborum deserunt incidunt quisquam perferendis animi et hic cum nemo est suscipit pariatur culpa!",
+          "para2": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt architecto animi ad ratione distinctio! Quidem aut, laborum deserunt incidunt quisquam perferendis animi et hic cum nemo est suscipit pariatur culpa!",
+          "para3": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt architecto animi ad ratione distinctio! Quidem aut, laborum deserunt incidunt quisquam perferendis animi et hic cum nemo est suscipit pariatur culpa!",
+          "img": "",
+          "color": "white",
+          "class": "about-right",
+          "image_Container_Class": "about-left"
+        }
+      ],
+      "front_image": ""
+    },
+    {
+      "id": 2,
+      "name": "Commercial | Products",
+      "class": "about",
+      "about": [
+        {
+          "title": "WHO WE ARE ?",
+          "para1": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt architecto animi ad ratione distinctio! Quidem aut, laborum deserunt incidunt quisquam perferendis animi et hic cum nemo est suscipit pariatur culpa!",
+          "para2": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt architecto animi ad ratione distinctio! Quidem aut, laborum deserunt incidunt quisquam perferendis animi et hic cum nemo est suscipit pariatur culpa!",
+          "para3": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt architecto animi ad ratione distinctio! Quidem aut, laborum deserunt incidunt quisquam perferendis animi et hic cum nemo est suscipit pariatur culpa!",
+          "img": "",
+          "class": "about-right",
+          "color": "white",
+          "image_Container_Class": "about-left"
+        },
+        {
+          "title": "What WE Do ?",
+          "para1": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt architecto animi ad ratione distinctio! Quidem aut, laborum deserunt incidunt quisquam perferendis animi et hic cum nemo est suscipit pariatur culpa!",
+          "para2": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt architecto animi ad ratione distinctio! Quidem aut, laborum deserunt incidunt quisquam perferendis animi et hic cum nemo est suscipit pariatur culpa!",
+          "para3": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt architecto animi ad ratione distinctio! Quidem aut, laborum deserunt incidunt quisquam perferendis animi et hic cum nemo est suscipit pariatur culpa!",
+          "img": "",
+          "divClass":"about_2",
+          "class": "about-left_2",
+          "color": "black",
+          "image_Container_Class": "about-right_2"
+        },
+        {
+          "title": "Why Us ?",
+          "para1": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt architecto animi ad ratione distinctio! Quidem aut, laborum deserunt incidunt quisquam perferendis animi et hic cum nemo est suscipit pariatur culpa!",
+          "para2": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt architecto animi ad ratione distinctio! Quidem aut, laborum deserunt incidunt quisquam perferendis animi et hic cum nemo est suscipit pariatur culpa!",
+          "para3": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt architecto animi ad ratione distinctio! Quidem aut, laborum deserunt incidunt quisquam perferendis animi et hic cum nemo est suscipit pariatur culpa!",
+          "img": "",
+          "color": "white",
+          "class": "about-right",
+          "image_Container_Class": "about-left"
+        }
+      ],
+      "front_image": ""
+    },
+    {
+      "id": 3,
+      "name": "Wedding | Events",
+      "class": "about",
+      "about": [
+        {
+          "title": "WHO WE ARE ?",
+          "para1": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt architecto animi ad ratione distinctio! Quidem aut, laborum deserunt incidunt quisquam perferendis animi et hic cum nemo est suscipit pariatur culpa!",
+          "para2": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt architecto animi ad ratione distinctio! Quidem aut, laborum deserunt incidunt quisquam perferendis animi et hic cum nemo est suscipit pariatur culpa!",
+          "para3": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt architecto animi ad ratione distinctio! Quidem aut, laborum deserunt incidunt quisquam perferendis animi et hic cum nemo est suscipit pariatur culpa!",
+          "img": "",
+          "class": "about-right",
+          "color": "white",
+          "image_Container_Class": "about-left"
+        },
+        {
+          "title": "What WE Do ?",
+          "para1": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt architecto animi ad ratione distinctio! Quidem aut, laborum deserunt incidunt quisquam perferendis animi et hic cum nemo est suscipit pariatur culpa!",
+          "para2": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt architecto animi ad ratione distinctio! Quidem aut, laborum deserunt incidunt quisquam perferendis animi et hic cum nemo est suscipit pariatur culpa!",
+          "para3": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt architecto animi ad ratione distinctio! Quidem aut, laborum deserunt incidunt quisquam perferendis animi et hic cum nemo est suscipit pariatur culpa!",
+          "img": "",
+          "divClass":"about_2",
+          "class": "about-left_2",
+          "color": "black",
+          "image_Container_Class": "about-right_2"
+        },
+        {
+          "title": "Why Us ?",
+          "para1": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt architecto animi ad ratione distinctio! Quidem aut, laborum deserunt incidunt quisquam perferendis animi et hic cum nemo est suscipit pariatur culpa!",
+          "para2": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt architecto animi ad ratione distinctio! Quidem aut, laborum deserunt incidunt quisquam perferendis animi et hic cum nemo est suscipit pariatur culpa!",
+          "para3": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt architecto animi ad ratione distinctio! Quidem aut, laborum deserunt incidunt quisquam perferendis animi et hic cum nemo est suscipit pariatur culpa!",
+          "img": "",
+          "color": "white",
+          "class": "about-right",
+          "image_Container_Class": "about-left"
+        }
+      ],
+      "front_image": ""
+    }
+  ],
+  "Gallery": {
+    "images": [
+      "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_",
+      "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_"
+    ]
+  }
+}
