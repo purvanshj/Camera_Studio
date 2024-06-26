@@ -16,7 +16,6 @@ const Home = () => {
     <div className="container">
       <Carousel images={images} />
       <Services />
-      <CTA />
       <Contact />
     </div>
   );
