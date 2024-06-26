@@ -31,7 +31,34 @@ const Crew = () => {
         </div>
         <div className="content">
             <h2>Aakash Agrawal<br/>
-            <span>Chartered Accountant C.A</span></h2>
+            <span>Chartered Accountant</span></h2>
+        </div>
+    </div>
+    <div className="box">
+        <div className="imgBox">
+            <img src={crew_1} alt=""/>
+        </div>
+        <div className="content">
+            <h2>Karan Singh <br />
+            <span>Graphic Designer</span></h2>
+        </div>
+    </div>
+    <div className="box">
+        <div className="imgBox">
+            <img src={crew_2} alt=""/>
+        </div>
+        <div className="content">
+            <h2>Dolly Seth <br />
+            <span>Digital Marketing</span></h2>
+        </div>
+    </div>
+    <div className="box">
+        <div className="imgBox">
+            <img src={crew_3} alt=""/>
+        </div>
+        <div className="content">
+            <h2>Aakash Agrawal<br/>
+            <span>Chartered Accountant</span></h2>
         </div>
     </div>
 </div>
