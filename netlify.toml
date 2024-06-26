@@ -12,3 +12,8 @@
   [headers.values]
     Content-Type = "text/css"
     Content-Type = "application/javascript"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
