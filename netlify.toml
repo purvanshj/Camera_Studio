@@ -8,9 +8,13 @@
     Cache-Control = "public, max-age=0, must-revalidate"
 
 [[headers]]
-  for = "/assets/*"
+  for = "/assets/*.css"
   [headers.values]
     Content-Type = "text/css"
+
+[[headers]]
+  for = "/assets/*.js"
+  [headers.values]
     Content-Type = "application/javascript"
 
 [[redirects]]
