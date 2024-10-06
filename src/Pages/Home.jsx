@@ -6,7 +6,6 @@ import img2 from "../assets/Commercial/_KVB8889.jpg";
 import img3 from "../assets/Commercial/_KVB8891.jpg";
 import img4 from "../assets/Commercial/_KVB8911.jpg";
 import Carousel from "../Components/Carousel/Carousel";
-import Marquee from "../Components/Marquee/Marquee";
 
 
 const Home = () => {
@@ -15,7 +14,6 @@ const Home = () => {
   return (
     <div className="container">
       <Carousel images={images} />
-      {/* <Marquee/> */}
       <Services />
       <Contact/>
     </div>
