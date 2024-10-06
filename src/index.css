@@ -37,3 +37,15 @@ a{
   display: flex;
   align-items: center;
 }
+.parallax-container {
+  position: relative;
+  height: 300vh; /* Ensure enough scrollable space */
+  background-color: #333;
+  overflow: hidden; /* Prevents elements from overflowing the container */
+}
+
+.parallax-element {
+  border-radius: 8px;
+  overflow: hidden; /* Ensures images don't overflow the container */
+}
+

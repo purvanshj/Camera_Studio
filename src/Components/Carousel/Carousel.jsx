@@ -1,12 +1,13 @@
 import React, { useState, useEffect, useRef } from 'react';
 import './Carousel.css'; // Import the CSS file for styling
+import { Parallax, ParallaxProvider, useParallax } from 'react-scroll-parallax';
 
 
-const Carousel = ({images}) => {
+const Carousel = (props) => {
   const slides = [
     {
       id: 1,
-      image: images[0],
+      image: props.images[0],
       location: 'UTAH',
       date: 'DECEMBER 2023',
       title: 'SIMRAN & VISHAL',
@@ -14,7 +15,7 @@ const Carousel = ({images}) => {
     },
     {
       id: 2,
-      image: images[1],
+      image: props.images[1],
       location: 'NEW YORK',
       date: 'JANUARY 2024',
       title: 'ALEX & TINA',
@@ -22,7 +23,7 @@ const Carousel = ({images}) => {
     },
     {
       id: 3,
-      image: images[2],
+      image: props.images[2],
       location: 'LOS ANGELES',
       date: 'FEBRUARY 2024',
       title: 'MIKE & JULIA',
@@ -67,6 +68,10 @@ const Carousel = ({images}) => {
     return () => clearInterval(interval); // Cleanup on component unmount
   }, []);
   return (
+    <ParallaxProvider>
+      <Parallax
+  scale={props.scale ? props.scale : [1.2,0]}
+  easing="easeInQuad"> 
     <div className="slider-container">
       <div
         className="slider"
@@ -112,6 +117,9 @@ const Carousel = ({images}) => {
       <div className="prev" onClick={() => moveSlide(-1)}>&#10094;</div>
       <div className="next" onClick={() => moveSlide(1)}>&#10095;</div>
     </div>
+    </Parallax>
+    </ParallaxProvider>
+
   );
 };
 

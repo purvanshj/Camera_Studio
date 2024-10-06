@@ -70,3 +70,67 @@
         margin-top: 10px;
     }
 }
+
+.copy-right-wrapper {
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px 31px;
+    display: flex;
+}
+
+.main-headar-right-button {
+    grid-column-gap: 20px;
+    grid-row-gap: 10px;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    display: flex;
+}
+.copy-right {
+    width: 100%;
+    height: auto;
+}
+
+.main-headar-icons {
+    background-color: #0000000d;
+    background-image: url(../../assets/icons8-facebook.svg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    border-radius: 40px;
+    width: 40px;
+    height: 40px;
+    transition: background-color .2s cubic-bezier(.55,.055,.675,.19);
+}
+.main-headar-icons:hover {
+    transform: scale(1.2);
+    background-image: url(/src/assets/icons8-facebook.svg);
+    transition: transform 0.15s ease-in-out;
+}
+.main-headar-icons._2 {
+    background-image: url("../../assets/icons8-instagram.svg");
+    border-radius: 50px;
+}
+.main-headar-icons._2:hover {
+    transform: scale(1.2);
+    background-image: url(/src/assets/icons8-instagram.svg);
+    transition: transform 0.15s ease-in-out;
+}
+.main-headar-icons._3 {
+    background-image: url("../../assets/icons8-youtube.svg");
+    border-radius: 50px;
+}
+.main-headar-icons._3:hover {
+    transform: scale(1.2);
+    background-image: url(/src/assets/icons8-youtube.svg);
+    transition: transform 0.15s ease-in-out;
+}
+.copy-text-right {
+    text-align: left;
+    letter-spacing: .5px;
+    font-family: Aspekta VF, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}

@@ -5,7 +5,7 @@
   margin: auto;
   overflow: hidden;
   border-radius: 12px;
-  height: 100vh; /* Ensure the height fits within the screen height */
+  height: 90vh; /* Ensure the height fits within the screen height */
   max-height: 100vh; /* Prevents overflowing vertically */
 }
 

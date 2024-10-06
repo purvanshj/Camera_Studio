@@ -20,7 +20,7 @@ const App = () => {
         <Route path="/gallery" Component={Gallery} />
         <Route path="/services/:id" Component={services} />
       </Routes>
-      <CTA/>
+      {/* <CTA/> */}
       <Footer />
     </Router>
   );

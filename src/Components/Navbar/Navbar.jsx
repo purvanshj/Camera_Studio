@@ -10,7 +10,7 @@ const Navbar = () => {
   const [showLogo, setShowLogo] = useState(false);
   const [mobileMenu, setMobileMenu] = useState(false);
   const [isDropdownVisible, setDropdownVisible] = useState(false);
-
+  
   const handleMouseEnter = () => {
     setDropdownVisible(true);
   };
@@ -23,7 +23,6 @@ const Navbar = () => {
     mobileMenu ? setMobileMenu(false) : setMobileMenu(true);
   };
 
-  
   useEffect(() => {
     window.addEventListener("scroll", () => {
       window.scrollY > 50 ? setSticky(true) : setSticky(false);
@@ -43,26 +42,34 @@ const Navbar = () => {
           className=" navbar__logo"
           onClick={toggleMenu}
         >
-          <img src={logo} alt="mySvgImage" />
+          <a href="/" className="">
+            <img src={logo} alt="mySvgImage" />
+          </a>
         </div>
         <ul className={`navbar__list ${mobileMenu ? "" : "hide-mobile-menu"}`}>
-          <li className="navbar_items " onMouseEnter={handleMouseEnter}
-          onMouseLeave={handleMouseLeave}>
+          <li
+            className="navbar_items "
+            onMouseEnter={handleMouseEnter}
+            onMouseLeave={handleMouseLeave}
+          >
             Services
-            {isDropdownVisible &&
-             <ul className="about_dropdown" onMouseEnter={handleMouseEnter}
-             onMouseLeave={handleMouseLeave}>
-              <li>
-                <Link to="/services/1">Fashion | Portrait</Link>
-              </li>
-              <li>
-                <Link to="/services/2">Commercial | Product </Link>
-              </li>
-              <li>
-                <Link to="/services/3">Wedding | Event</Link>
-              </li>
-            </ul>
-            }
+            {isDropdownVisible && (
+              <ul
+                className="about_dropdown"
+                onMouseEnter={handleMouseEnter}
+                onMouseLeave={handleMouseLeave}
+              >
+                <li>
+                  <Link to="/services/1">Fashion | Portrait</Link>
+                </li>
+                <li>
+                  <Link to="/services/2">Commercial | Product </Link>
+                </li>
+                <li>
+                  <Link to="/services/3">Wedding | Event</Link>
+                </li>
+              </ul>
+            )}
           </li>
           <li className="navbar_items">
             <a href="/gallery">Gallery</a>
